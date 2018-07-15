@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormExercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+		<label>
+			First name:
+			<input type="text" name="First" placeholder="John" required>
+		</label>
+
+		<label>
+			Last name:
+			<input type="text" name="Last" placeholder="Smith" required>
+		</label>
+
+		<p></p>
+
+		<label>
+			Male
+			<input type="radio" value ="Male" name="gender">
+		</label>
+
+		<label>
+			Female
+			<input type="radio" value="Female" name="gender">
+		</label>
+
+		<label>
+			Other
+			<input type="radio" value="Other" name="gender">
+		</label>
+
+		<p></p>
+
+		<label>
+			Email
+			<input type="Email" name="Email" placeholder="your email" required>
+		</label>
+
+		<label>
+			Password
+			<input type="Password" name="Password" pattern=".{5,10}" title="Password must be between 5 and 10 characters" required>
+		</label>
+
+
+		<p></p>
+
+		<label>
+			Birthday
+			<select placeholder="Month">
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>March</option>
+			</select>
+
+			<select placeholder="Day">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+
+			<select placeholder="Year">
+				<option>Now</option>
+				<option>Later</option>
+				<option>Never</option>
+			</select>
+		</label>
+
+		<p></p>
+
+		<label>
+			I agree to the terms and conditions
+			<input type="checkbox" name="agree">
+		</label>
+
+		<p></p>
+
+		<button>Submit</button>
+
+	</form>
+
+</body>
+</html>
