@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://cdn.rawgit.com/BrainJS/brain.js/5797b875/browser.js"></script>
+        <script src="index.js"></script>
+        <script>
+            function stuff(){
+                var A = net.run(Array.from({BME: 1, Undergrad: 1}))['A'].toFixed(3);
+                var B = net.run(Array.from({BME: 1, Undergrad: 1}))['B'].toFixed(4);
+                var Bplus = net.run(Array.from({BME: 1, Undergrad: 1}))['B+'].toFixed(4);
+                document.getElementById('output').innerHTML = "A: " + A*100 + "% " + "B+: " + Bplus*100 + "% "+ "B: " + B*100 +"%";
+            };
+        </script>
+    </head>
+    <body>
+        <h2 id='output'>
+            hey
+        </h2>
+        <button onclick=stuff()>
+            Click
+        </button>
+    </body>
+</html>
