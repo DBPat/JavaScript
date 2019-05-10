@@ -31,7 +31,6 @@ class TodoItems extends Component{
             </ul>
         )
     }
-
 }
 
 export default TodoItems;
