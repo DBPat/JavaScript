@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(skyblue, pink);
+}
+
+.calc-wrapper {
+  width: 400px;
+  height: 538px;
+  outline: 2px solid black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
